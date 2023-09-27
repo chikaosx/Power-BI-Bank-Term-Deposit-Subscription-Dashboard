@@ -1,5 +1,7 @@
 # Power BI Bank Term Deposit Subscription Dashboard Project
 
+![](bank-dashboard.jpg)
+
 1. **Project Overview**
     - **Introduction**: This document provides an in-depth technical overview of the Power BI Bank Term Deposit Subscription Dashboard Project.
     - **Purpose and Objectives**: The primary purpose of this project is to create an interactive and insightful dashboard for analyzing marketing campaign data.
@@ -41,5 +43,3 @@
       4. Retention Rate
       ```Retention Rate = DIVIDE(COUNTROWS(FILTER('bank-dataset', [y] = "yes")), COUNTROWS(FILTER('bank-dataset', [previous] > 0)))```
     - **Purpose and Usage**: These measures provide users with the ability to analyze and compare KPIs across different dimensions.
-
-![]()
